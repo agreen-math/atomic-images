@@ -1,0 +1,26 @@
+<diagram dimensions="(300,300)" margins="0">
+ 
+  <definition>a=1</definition>
+  <definition>b=1</definition>
+  <definition>c=0</definition>
+  <definition>d=0</definition>
+ 
+  <definition>f(x)=a*sec(b*(x-c))+d</definition>
+
+  <definition>do1=0</definition>
+  <definition>do2=2*pi</definition>
+ 
+  <coordinates bbox="(-1*pi/2,-2,2*pi+pi/2,2)">
+        <grid-axes h-pi-format="yes" clear-background="yes"/>
+
+        <graph function="f" domain="(do1,do2)" thickness="3" N="500" />
+
+        <line endpoints="((pi/2,-2), (pi/2,2))" dash="9 9" arrows="2" stroke="orange"/>
+        <line endpoints="((3*pi/2,-2), (3*pi/2,2))" dash="9 9" arrows="2" stroke="orange"/>
+
+        <point p="(0, f(0))"/>
+        <point p="(pi, f(pi))"/>
+        <point p="(2*pi, f(2*pi))"/>
+ 
+  </coordinates>
+</diagram>
