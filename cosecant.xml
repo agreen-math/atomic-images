@@ -1,0 +1,26 @@
+<diagram dimensions="(300,300)" margins="0">
+ 
+  <definition>a=1</definition>
+  <definition>b=1</definition>
+  <definition>c=0</definition>
+  <definition>d=0</definition>
+ 
+  <definition>f(x)=a*csc(b*(x-c))+d</definition>
+
+  <definition>do1=0</definition>
+  <definition>do2=2*pi</definition>
+ 
+  <coordinates bbox="(-1*pi/2,-2,2*pi+pi/2,2)">
+        <grid-axes h-pi-format="yes" clear-background="yes"/>
+
+        <graph function="f" domain="(do1,do2)" thickness="3" N="500" arrows="2"/>
+
+        <line endpoints="((0,-2), (0,2))" dash="9 9" arrows="2" stroke="orange"/>
+        <line endpoints="((pi,-2), (pi,2))" dash="9 9" arrows="2" stroke="orange"/>
+        <line endpoints="((2*pi,-2), (2*pi,2))" dash="9 9" arrows="2" stroke="orange"/>
+
+        <point p="(pi/2, f(pi/2))"/>
+        <point p="(3*pi/2, f(3*pi/2))"/>
+ 
+  </coordinates>
+</diagram>
